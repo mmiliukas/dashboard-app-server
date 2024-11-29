@@ -29,7 +29,7 @@ router.post('/', function (req, res, next) {
     const instance = parseInstance(req.query["instance"] || "", process.env.APP_SECRET);
     const client = sdk.createClient({
         auth: sdk.AppStrategy({
-            appId: instance.appId,
+            appId: instance.appDefId,
             instanceId: instance.instanceId,
             appSecret: process.env.APP_SECRET,
         }),
