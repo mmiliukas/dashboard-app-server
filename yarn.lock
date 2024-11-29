@@ -2,6 +2,204 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.26.0":
+  version "7.26.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.26.0.tgz#8600c2f595f277c60815256418b85356a65173c1"
+  integrity sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
+"@wix/email-marketing@^1.0.96":
+  version "1.0.96"
+  resolved "https://registry.yarnpkg.com/@wix/email-marketing/-/email-marketing-1.0.96.tgz#761a6641d69d9b00be84ec6aa34b979dfca3de3c"
+  integrity sha512-pW99w4sp0pCPbTtRxLyTAz6IGZTfaSfVEhN2rEtk48e+dQkW486JQiKMipgEvHepyRt6LKzkyqmGHOGi+sXmqA==
+  dependencies:
+    "@wix/email-marketing_account-details" "1.0.32"
+    "@wix/email-marketing_campaigns" "1.0.48"
+    "@wix/email-marketing_sender-details" "1.0.35"
+
+"@wix/email-marketing_account-details@1.0.32":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@wix/email-marketing_account-details/-/email-marketing_account-details-1.0.32.tgz#825fd0c111800cb7d3cd85c013aed4d0a440854d"
+  integrity sha512-UNJlylM4MbTTfjUflmpDQhr43u5G1bE47gR1DdhX1iwKIBOak99YK1NZCECcH16lopql/pkihg1rtO1aO2F5jA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/email-marketing_campaigns@1.0.48":
+  version "1.0.48"
+  resolved "https://registry.yarnpkg.com/@wix/email-marketing_campaigns/-/email-marketing_campaigns-1.0.48.tgz#14780e933c298dfee8168b2812f42ceb3491b607"
+  integrity sha512-GHum1/BU28UYx+JZXuRaSdaMpFaHJcVFWQght69Gse0MUhUHivVoS752d/sK9o+jjr89iSrqU0bFVE8/ycr3cQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/email-marketing_sender-details@1.0.35":
+  version "1.0.35"
+  resolved "https://registry.yarnpkg.com/@wix/email-marketing_sender-details/-/email-marketing_sender-details-1.0.35.tgz#f7382c6442f9f62e09b0fd2bb93b1d68e19bc177"
+  integrity sha512-9jVIFBvitCPFdf+oh/nrhepQkQWR8Tf4I0IP5QutekZaUetPvuR2vt1Rms8qAbRQCHT9YP9r6XshNhD9HrgUrQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/email-subscriptions@^1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@wix/email-subscriptions/-/email-subscriptions-1.0.23.tgz#e59f91fe98f77873c59f5cc2337332464d0316ec"
+  integrity sha512-urTkYzxK+jllml1t6QDkO5VH+nzKtq4s0weH9I1t3US+t8DaKKYmn/g6xd3lruI4KPHaRejSqMc+59gtkkpBxQ==
+  dependencies:
+    "@wix/email-subscriptions_email-subscriptions" "1.0.8"
+
+"@wix/email-subscriptions_email-subscriptions@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@wix/email-subscriptions_email-subscriptions/-/email-subscriptions_email-subscriptions-1.0.8.tgz#37be61a515bda22e1f02a27240fb7e8655d3c9ef"
+  integrity sha512-kf0B9/gAU6OQA0C4pyrfTE76/2T0H0aps/zCPQMXfnGh/JuoRpwMR+7gieS3PnKOHECWWgGdkDw7ojKzPAgMuA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/identity@^1.0.86":
+  version "1.0.87"
+  resolved "https://registry.yarnpkg.com/@wix/identity/-/identity-1.0.87.tgz#130c0132a147bd23e16de16b1bf59c066e8e65d9"
+  integrity sha512-cHrqj7r+L+WIKEOBXJrgIMtg7yZTuNOGkoChBX8/jpkPI1TAC9Lik1NQXtkBOAyphNFL63ZncGTQ9V+oqEbTuA==
+  dependencies:
+    "@wix/identity_account" "1.0.0"
+    "@wix/identity_account-invite" "1.0.1"
+    "@wix/identity_authentication" "1.0.16"
+    "@wix/identity_contributor" "1.0.0"
+    "@wix/identity_oauth" "1.0.13"
+    "@wix/identity_recovery" "1.0.14"
+    "@wix/identity_site-invite" "1.0.1"
+    "@wix/identity_verification" "1.0.14"
+
+"@wix/identity_account-invite@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@wix/identity_account-invite/-/identity_account-invite-1.0.1.tgz#85e4ef5bbe67e59786da613b7f4dda4468cb20b6"
+  integrity sha512-36kETgShGL6hqNJnLyr3aJftWqzBPTcyViB7FQuF5W/EkKhvKw9Xgn6Ppwjhy29dSGT9HzIRZ610vM/S85M3NA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/identity_account@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@wix/identity_account/-/identity_account-1.0.0.tgz#1fecb43920fb1ba33fdd6ef07ea14f023f4555d0"
+  integrity sha512-Kczdj/D52PxejE0s51pY5kNJn4+k+cn/+QD8xad6ZYv5cZWzWfoOiGUCANsoDzSMayIRpqvKP/VdDTf4AYTiDQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/identity_authentication@1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@wix/identity_authentication/-/identity_authentication-1.0.16.tgz#258e81ebc79609ff629c3125078da16a74c634f6"
+  integrity sha512-ORouDnyeFHsHkButvGBgTEwgGs4Uf/45Cd0H0XgxFN0pnjlhufcqk8QvrcytB/6Q7tkNdh9z7S0xIf1rWKNLwA==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/identity_contributor@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@wix/identity_contributor/-/identity_contributor-1.0.0.tgz#dafec2d1eb3142f88287cfef9729646d5864103d"
+  integrity sha512-LKPDw2KYeo22sPXmm7bWyBvpzZNpEQ8jS2JZWhQq1AYgxhTdx4ZT8L4TmnO2m+MewceU9CA6FKTrNRs73ZI1Qw==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/identity_oauth@1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@wix/identity_oauth/-/identity_oauth-1.0.13.tgz#cf59a9ef0807a14317b5753da0b218432f8c9cff"
+  integrity sha512-pIRc0pk0aWEuZ5l5FFri/kGp/Osq4CTuk9hZSqE/4HD1JJOoEHgPdk3PliS7r8gVey9ZxTKLUJEVBFL8f7YF7A==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/identity_recovery@1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@wix/identity_recovery/-/identity_recovery-1.0.14.tgz#ff966751ec8c380c3072e6da425aafcf3f723652"
+  integrity sha512-CsUMBsGwu6Lt2pIdWtjA8s6TwsFVF8VI0XWFWb9b/o/hiIRIe4tTnfSfmcOx7rMAc6ugyw622gQIppp7/At07A==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/identity_site-invite@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@wix/identity_site-invite/-/identity_site-invite-1.0.1.tgz#f9f251481f11afafe843d91aecacc63fd5317e17"
+  integrity sha512-p8YKaorFgEv94pL/41LSNrDxKe+XDCaflnMXCFSoo9gatswNCnHyfi2M904Vfz2taF6unF9eOxSWtlykUqcgzg==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/identity_verification@1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@wix/identity_verification/-/identity_verification-1.0.14.tgz#30035724b535aa7e76b71158243d2578112df2ca"
+  integrity sha512-Y7E5EOFpxG+TmCfaRqM/pEaYSdOrECfwQStdKv+7JvpZMPnnOfpODUeQngevwmuIdCgQn2W2P9eW5198vkHGWQ==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/image-kit@^1.93.0":
+  version "1.96.0"
+  resolved "https://registry.yarnpkg.com/@wix/image-kit/-/image-kit-1.96.0.tgz#632897975df93d2e38205c5e6c8bcefdede61a5b"
+  integrity sha512-Kv37JIPTWGsQ2e5tX3HIDBkoMBcDbIZB5QVybptTwHOjieyX8WmGLasTZed1uO6v5JlqhZwr84C/9FCfUQaqzg==
+  dependencies:
+    "@babel/runtime" "^7.26.0"
+    tslib "^2.8.1"
+
+"@wix/redirects@^1.0.61":
+  version "1.0.64"
+  resolved "https://registry.yarnpkg.com/@wix/redirects/-/redirects-1.0.64.tgz#cf93ee4e34b0f697b6bf2415d2368d76617dc581"
+  integrity sha512-L+NA1PvzxppP4obfBDcrPuHFd7kaPzgxkvHGEAj5AbDywdsYwRI9euouQo8CoKGgD61y5gG7SMKDq8uuSHEMGQ==
+  dependencies:
+    "@wix/redirects_redirects" "1.0.33"
+
+"@wix/redirects_redirects@1.0.33":
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/@wix/redirects_redirects/-/redirects_redirects-1.0.33.tgz#2ca92899d12210c4a2f1dc0e51d7efe785573c88"
+  integrity sha512-GUYQPGy4K1e8qdPUfvLSF7rnwVx3K/Q3lfNBZMvZSu0jF2UO3o2gxIKQgFL1ZWkOjI3T8CISoZwvOp6PGUKs4Q==
+  dependencies:
+    "@wix/sdk-runtime" "^0.3.22"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/sdk-context@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-context/-/sdk-context-0.0.1.tgz#8c1436d382b720f80e72dd0c1c4e0576b6ab3fec"
+  integrity sha512-ziSzrceUC0KFn4IJIVBn1cXXKrZ49ZKG5tQ6fl+TpontyUw5p/Z4VofFUUsnqNl9JYCpYNTzIXpzwok93Vrl8A==
+
+"@wix/sdk-runtime@0.3.23":
+  version "0.3.23"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-runtime/-/sdk-runtime-0.3.23.tgz#cf59be09534aad3adacca5173d042ef5cb0723ab"
+  integrity sha512-1H7qJAymrCe6zxMFTqha8UD42eN8fLLn/oJd5KS9FLA3ZfFVMjkDq8yLrzLEtU8BlT6LOtkM0IZS78YlyrURiw==
+  dependencies:
+    "@wix/sdk-context" "^0.0.1"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/sdk-runtime@^0.3.22":
+  version "0.3.24"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-runtime/-/sdk-runtime-0.3.24.tgz#ae2bf0197ca6b22df846174515d41e9b66ca69ec"
+  integrity sha512-5vi5nZCEfbq4G4tZ3Bjkyn2aMx3jm5seR8nS742SZJXXhHc6BZ4oF6cOgTflsJHfvfywBY2mEa/HxbxDTnVjHQ==
+  dependencies:
+    "@wix/sdk-context" "^0.0.1"
+    "@wix/sdk-types" "^1.12.4"
+
+"@wix/sdk-types@^1.12.4":
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.12.4.tgz#2d1e178b4d95b6d0cdf67cea90cfecb97a37a9ce"
+  integrity sha512-Y7sV75riuQc67yqKi0msi7V++iU45d6eXHmiavBbmADDJsTilHqWAi0ulqpm4SF2BrrRgybDkgPpGRTHVy9E0g==
+
+"@wix/sdk@^1.14.4":
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/@wix/sdk/-/sdk-1.14.4.tgz#f52fe8bde75f466a7ed851b3cb403e1c491db220"
+  integrity sha512-4egju5mAB5ppeou4lXM1FRELl3KWzlfvNKcnkIeCwqt1Pl05y7xb9UzcmiiPlWvOpy9EUO+5gk+ky70n4ltwng==
+  dependencies:
+    "@wix/identity" "^1.0.86"
+    "@wix/image-kit" "^1.93.0"
+    "@wix/redirects" "^1.0.61"
+    "@wix/sdk-context" "^0.0.1"
+    "@wix/sdk-runtime" "0.3.23"
+    "@wix/sdk-types" "^1.12.4"
+    jose "^5.9.6"
+    type-fest "^4.27.0"
+  optionalDependencies:
+    graphql "^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
+
 accepts@~1.3.5:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.8.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
@@ -298,6 +496,11 @@ fresh@0.5.2:
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
   integrity sha512-8tLu60LgxF6XpdbK8OW3FA+IfTNBn1ZHGHKF4KQbEeSkajYw5PlYJcKluntgegDPTg8UkHjpet1T82vk6TQ68w==
 
+"graphql@^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0":
+  version "16.9.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.9.0.tgz#1c310e63f16a49ce1fbb230bd0a000e99f6f115f"
+  integrity sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==
+
 http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.6.3.tgz#8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
@@ -355,6 +558,11 @@ jade@~1.11.0:
     uglify-js "^2.4.19"
     void-elements "~2.0.1"
     with "~4.0.0"
+
+jose@^5.9.6:
+  version "5.9.6"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-5.9.6.tgz#77f1f901d88ebdc405e57cce08d2a91f47521883"
+  integrity sha512-AMlnetc9+CV9asI19zHmrgS/WYsWUwCn2R7RzlbJWD7F9eWYUTGyBmU9o6PxngtLGOiDGPRu+Uc4fhKzbpteZQ==
 
 jstransformer@0.0.2:
   version "0.0.2"
@@ -522,6 +730,11 @@ raw-body@2.3.3:
     iconv-lite "0.4.23"
     unpipe "1.0.0"
 
+regenerator-runtime@^0.14.0:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"
+  integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
+
 repeat-string@^1.5.2:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
@@ -615,6 +828,16 @@ transformers@2.1.0:
     css "~1.0.8"
     promise "~2.0"
     uglify-js "~2.2.5"
+
+tslib@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
+
+type-fest@^4.27.0:
+  version "4.29.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.29.0.tgz#c9ac0bd3c7cb2c2fb8fc7b24d5b3eb48daad834e"
+  integrity sha512-RPYt6dKyemXJe7I6oNstcH24myUGSReicxcHTvCLgzm4e0n8y05dGvcGB15/SoPRBmhlMthWQ9pvKyL81ko8nQ==
 
 type-is@~1.6.16:
   version "1.6.18"

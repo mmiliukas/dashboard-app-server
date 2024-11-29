@@ -9,6 +9,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const pingRouter = require('./routes/ping');
 const instanceRouter = require('./routes/instance');
+const subscriptionsRouter = require('./routes/subscriptions');
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/ping', cors(), pingRouter);
 app.use('/instance', cors(), instanceRouter);
+app.use('./subscriptions', cors(), subscriptionsRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
