@@ -48,7 +48,9 @@ router.post('/', function (req, res, next) {
         .then(result => {
             client.notificationsV3.notify('cd342a34-145c-484a-897d-3bff53d9f7ec', {
                 dynamicValues: {
-                    email: req.body.email,
+                    email: {
+                        text: req.body.email || 'unknown email',
+                    },
                 }
             })
                 .then(() => res.json(result))
